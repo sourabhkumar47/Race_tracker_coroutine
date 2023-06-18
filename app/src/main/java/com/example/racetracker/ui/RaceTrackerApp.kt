@@ -160,7 +160,7 @@ private fun StatusIndicator(
                 modifier = Modifier
                     .fillMaxWidth()
                     .height(16.dp)
-                    .clip(RoundedCornerShape(4.dp))
+                    .clip(RoundedCornerShape(40.dp))
             )
             Row(
                 modifier = Modifier.fillMaxWidth(),
@@ -202,7 +202,7 @@ private fun RaceControls(
     }
 }
 
-@Preview
+@Preview(showBackground = true)
 @Composable
 fun RaceTrackerAppPreview() {
     MaterialTheme {
