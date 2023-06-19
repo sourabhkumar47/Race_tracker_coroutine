@@ -75,6 +75,7 @@ fun RaceTrackerApp() {
                 launch { playerOne.run() }
                 launch { playerTwo.run() }
             }
+            //it cancels the running coroutines
             raceInProgress = false
         }
 
